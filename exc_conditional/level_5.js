@@ -1,11 +1,10 @@
-let stringWord = "theprimeagen ";
-let vowels = ['a', 'i', 'u', 'e', 'o', 'A', 'I', 'U', 'E', 'O'];
+let str = "theprimeagen ";
 let isVocal;
 
-if ( ) {
-    isVocal =  `${stringWord} is have vowels`;
+if (str.includes('a') || str.includes('e') || str.includes('i') || str.includes('o') || str.includes('u')) {
+    isVocal = `${str} is have vowels`;
 } else {
-    isVocal = `${stringWord} isn't have vowels`;
+    isVocal = `${str} isn't have vowels`;
 }
 
 console.log(isVocal);
